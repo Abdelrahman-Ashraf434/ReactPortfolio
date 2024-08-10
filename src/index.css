@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.icon {
+  padding: 10px;
+}
+.active {
+  @apply bg-teal-500 rounded p-2;
+}
+.btn {
+  @apply px-4 py-2 rounded;
+}
+.btn-teal {
+  @apply bg-teal-500 text-white hover:bg-teal-600;
+}
+.container{
+    @apply max-w-full
+}
